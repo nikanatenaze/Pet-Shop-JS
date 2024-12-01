@@ -201,3 +201,31 @@
         width: 100%;
     }
 }
+
+@media screen and (max-width: 720px) {
+    .pa {
+        font-size: 15px;
+    }
+    .sh {
+        font-size: 30px;
+    }
+    .el {
+        font-size: 15px;
+    }
+
+    .C-content a {
+        padding: 10px 20px;
+    }
+
+    .aufhalf-title {
+        font-size: 30px;
+    }
+
+    .aufhalf-text {
+        font-size: 20px;
+    }
+
+    .aufhalf-buttons a {
+        padding: 10px 20px;
+    }
+}
