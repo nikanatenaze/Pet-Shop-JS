@@ -1,0 +1,85 @@
+.card {
+  margin-left: -1rem;
+  margin-right: -1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  margin-bottom: 2rem;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.25rem;
+  backdrop-filter: blur(10px);
+  background-color: rgba(18, 20, 24, 0.636);
+  border: 1px solid black;
+  color: white;
+  padding: 2rem;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  font-family: "Roboto", serif;
+}
+
+.card:hover {
+  color: black;
+  background-color: rgb(255, 255, 255);
+}
+
+.header {
+
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+}
+
+.price {
+  font-family: "Rubik", sans-serif;
+  font-size: 3.30rem;
+  line-height: 1;
+  font-weight: 700;
+}
+
+.desc {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.625;
+}
+
+.lists {
+  margin-bottom: 1.5rem;
+  flex: 1 1 0%;
+}
+
+.lists .list {
+  margin-bottom: 0.5rem;
+  display: flex;
+  margin-left: 0.5rem
+}
+
+.lists .list svg {
+  height: 1.5rem;
+  width: 1.5rem;
+  flex-shrink: 0;
+  margin-right: 0.5rem;
+  color: rgb(139, 250, 152);
+}
+
+.action {
+  border: none;
+  outline: none;
+  display: inline-block;
+  border-radius: 0.25rem;
+  background-color: rgba(167, 139, 250, 1);
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: rgba(17, 24, 39, 1);
+}
